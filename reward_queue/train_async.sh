@@ -7,7 +7,7 @@ NGPUS_PER_NODE=${NGPUS_PER_NODE:-8}
 
 PROJECT_NAME=${PROJECT_NAME:-'reward_queue'}
 EXP_NAME=${EXP_NAME:-'verl_async_train'}
-MODEL_PATH=${MODEL_PATH:-'Qwen3.5-9B'}
+MODEL_PATH=${MODEL_PATH:-'Qwen3-8B'}
 TRAIN_FILE=${TRAIN_FILE:-'./gsm8k/train/gsm8k_tra.jsonl'}
 VAL_FILE=${VAL_FILE:-'./gsm8k/eval/gsm8k_ev.jsonl'}
 CKPTS_DIR=${CKPTS_DIR:-"./ckpts/${project_name}/${exp_name}"}
